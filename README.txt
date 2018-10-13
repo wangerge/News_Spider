@@ -7,8 +7,7 @@
 		/crawl_data.py
 		/upload_data.py
 		/xxx.py
-	/Makefile
-	/requirements.txt
+	
 
 # 数据库MySQL
 database:	th_spider_database
