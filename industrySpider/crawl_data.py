@@ -17,7 +17,8 @@ from industrySpider import \
     whcm,\
     zhongfang,\
     ziguan,\
-    xazbzjy
+    xazbzjy,\
+    web5ifit
 
 try:
     civilcn.civilcn_run(1)
@@ -138,4 +139,13 @@ try:
 except:
     print('xazbzjy爬取错误')
     pass
+
+try:
+    web5ifit.web5ifit_run(1)
+    print('web5ifit爬取完成')
+except:
+    print('web5ifit_run爬取错误')
+    pass
+
+
 
